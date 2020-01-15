@@ -63,4 +63,16 @@ public class FrequentFlyerPointsStepDefinitions {
     @Then("the accounts should be as follows:")
     public void theAccountsShouldBeAsFollows(DataTable accountDetails) {
     }
+
+    @Given("Todd has just joined the Frequent Flyer programme")
+    public void toddHasJustJoinedTheFrequentFlyerProgramme() {
+    }
+
+    @And("Todd asks for the following flight to be credited to his account:")
+    public void toddAsksForTheFollowingFlightToBeCreditedToHisAccount(DataTable fights) {
+    }
+
+    @Then("the flight should be considered (.*)")
+    public void theFlightShouldBeConsideredEligibility(String eligibility) {
+    }
 }
